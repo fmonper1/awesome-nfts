@@ -176,7 +176,7 @@ const App = () => {
           <p className="sub-text">
             Each unique. Each beautiful. Discover your NFT today.
           </p>
-          {currentAccount === "" ? (
+          {currentAccount === null ? (
             renderNotConnectedContainer()
           ) : (
             /** Add askContractToMintNft Action for the onClick event **/
